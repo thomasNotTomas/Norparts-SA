@@ -7,10 +7,11 @@ function MobileMenu() {
                     flex justify-between
                     px-16 py-4
                     bg-brand-700
-                    w-full'>
-                    <NavItemMobile></NavItemMobile>
-                    <NavItemMobile></NavItemMobile>
-                    <NavItemMobile></NavItemMobile>
+                    w-full
+                    md:hidden'>
+                    <NavItemMobile icon="/icons/productIcon.png" name="Productos"></NavItemMobile>
+                    <NavItemMobile icon="/icons/serviceIcon.png" name="Servicios"></NavItemMobile>
+                    <NavItemMobile icon="/icons/contactIcon.png" name="Contactos"></NavItemMobile>
                     </div>
   )
 }
