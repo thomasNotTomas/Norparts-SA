@@ -6,15 +6,15 @@ function PrimaryBanner() {
     <div className='w-full flex justify-center'>
 
         <div id='Text Container' className='
-                                            px-3 space-y-12 max-w-[600px] md:max-w-[800px]'>
+                                            px-3 space-y-12 max-w-[600px] md:max-w-[1200px]'>
 
           <div id='Upper Content'
             className='font-semibold text-3xl text-secondary text-center'>Desde 1984 brindando calidad y profesionalismo</div>
 
           <div id='Bottom Content'
             className=' flex flex-col justify-center items-center
-                        font-semibold text-xl space-y-12 md:space-x-12
-                        md:flex-row'>
+                        font-semibold text-xl space-y-12 
+                        md:space-x-12 md:flex-row'>
             <div id='Paragraphs'
                  className='space-y-8 text-brand-900 text-center max-w-sm
                             md:text-2xl'>
@@ -28,7 +28,7 @@ function PrimaryBanner() {
               <div id='Icons'
                  className='flex flex-wrap
                             justify-center items-center 
-                            space-x-6'>
+                            space-x-8 max-w-md'>
               <Icon icon="/icons/agroIcon.png" 
                     area="Agro"></Icon>
               <Icon icon="/icons/transportIcon.png" 

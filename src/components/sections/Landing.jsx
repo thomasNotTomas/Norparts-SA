@@ -5,9 +5,10 @@ import PrimaryBanner from "../banners/PrimaryBanner";
 function Landing() {
 
     return (
-        <div className="flex flex-col h-fit 
+        <div className="flex flex-col h-fit items-center
                         bg-[url('/norparts-sa-background.png')] 
-                        bg-cover bg-center pb-48">
+                        bg-cover bg-center pb-48
+                        ">
             <Header></Header>
             <PrimaryBanner></PrimaryBanner>
         </div>

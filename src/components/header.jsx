@@ -3,7 +3,7 @@ import NavItem from './buttons/NavItem'
 
 function Header () {
   return (
-    <div className='h-fit w-full'>
+    <div className='h-fit w-full max-w-[1500px]'>
 
         <div id='Logo and menu'
         className='flex justify-center md:justify-between place-items-center

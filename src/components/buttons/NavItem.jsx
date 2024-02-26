@@ -7,9 +7,10 @@ function NavItem( {icon , name}  ) {
         <div className='flex rounded-xl text-xl
                         py-2 px-4 space-x-4
                         hover:bg-brand-900
-                        cursor-pointer'>
+                        cursor-pointer
+                        transition-all ease-in-out 1000ms'>
          <img src={icon} alt="Icon" className="w-6" />
-         <h4 className="text-base font-semibold"> {name} </h4>
+         <h4 className="text-base md:text-lg font-semibold"> {name} </h4>
         </div>
 
     )
